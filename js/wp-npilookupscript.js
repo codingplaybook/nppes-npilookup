@@ -212,6 +212,12 @@
 
     form_id = String($("#wp_npi_search").attr("name")); 
     console.log('form id = ', form_id);
+
+    /**
+     * Examples of input values based off their id numbers
+    */
+
+
     if(form_id === '63') {
         fname = "#input_63_222"; 
         lname = "#input_63_223"; 
